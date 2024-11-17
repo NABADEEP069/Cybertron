@@ -1,8 +1,50 @@
-# React + Vite
+# **Smart Waste Segregation System**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## **Description**
+The **Smart Waste Segregation System** is a tech-driven solution to improve urban waste management. By using a WhatsApp chatbot, users can report waste issues, and NGOs or local authorities are notified to take appropriate action. This system promotes efficient waste management, reduces response times, and ensures accountability.
 
-Currently, two official plugins are available:
+## **Features**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### **User Side**
+- **WhatsApp Chatbot**:
+  - Report waste issues by sending a photo with location data.
+  - Check for nearby existing reports to prioritize requests.
+  - Notifications are sent to the nearest NGOs for action.
+  - If no action is taken by the NGO in 8 hours, the request is sent to the local Municipality Board.
+  - Real-time updates on the status of requests.
+  - Users earn rewards for submitting waste reports.
+
+### **NGO Side**
+- **NGO Web Platform**:
+  - NGOs can register and maintain their profiles with location data.
+  - Track and manage requests through a dashboard.
+  - Accept or decline requests based on availability.
+  - NGOs are rewarded for completing requests and fined for incomplete actions.
+  - A leaderboard for top-performing NGOs.
+
+## **Technologies Used**
+
+### **Backend**
+- **Node.js** 
+- **Express.js** 
+- **MongoDB**  
+- **Geolocation Services** 
+
+### **Frontend**
+- **React.js** 
+- **HTML/CSS/JS** 
+- **Material-UI**
+
+### **WhatsApp Bot**
+- **Python** 
+- **Twilio API** 
+- **PIL (Pillow)** 
+- **Geopy** 
+
+## **Installation**
+
+### **Backend Setup**
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/smart-waste-segregation.git
+   cd smart-waste-segregation/backend
