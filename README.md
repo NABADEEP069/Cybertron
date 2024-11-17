@@ -41,6 +41,6 @@ The **Smart Waste Segregation System** is a tech-driven solution to improve urba
 - **PIL (Pillow)** 
 - **Geopy** 
 
-## **Installation**
+
 
 
