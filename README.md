@@ -43,8 +43,4 @@ The **Smart Waste Segregation System** is a tech-driven solution to improve urba
 
 ## **Installation**
 
-### **Backend Setup**
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/smart-waste-segregation.git
-   cd smart-waste-segregation/backend
+
